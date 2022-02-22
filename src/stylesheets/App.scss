@@ -1,0 +1,18 @@
+.app{
+    display: flex;
+    .main{
+        display: flex;
+        flex-basis: 60%;
+        flex-direction: column;
+    }
+    .map {
+        flex-grow: 1;
+        height: 100vh;
+        top: 0;
+    }
+    .users{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+}

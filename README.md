@@ -6,7 +6,7 @@ Fetch users information and display their location in a map using leaflet. Each 
 ### `npm install`
 
 Installs all the dependencies needed to run the app.
-Recommended NodeJS version 16.14.0
+NodeJS Recommended version 16.14.0
 
 ### `npm start`
 

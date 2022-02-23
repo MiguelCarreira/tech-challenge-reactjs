@@ -3,6 +3,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Fetch users information and display their location in a map using leaflet. Each user has his/her own page with the full data and a zoomed map on their location.
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Built With
+
+Major frameworks/libraries used.
+
+* [React.js](https://reactjs.org/)
+* [Bootstrap](https://getbootstrap.com)
+* [Leaflet](https://leafletjs.com/)
+
 ### Prerequisites
 
 * NodeJS [https://nodejs.org/](https://nodejs.org/) -> Recommended version 16.14.0
@@ -21,7 +35,6 @@ You can also download going to Code button and choose your desired method,
   npm install
 ```
 Installs all the dependencies needed to run the app.
-
 
 ### `Run the application`
 

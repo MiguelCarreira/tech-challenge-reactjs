@@ -6,12 +6,8 @@ import PropTypes from "prop-types";
 import "../stylesheets/User.scss";
 
 const User = ({id, name, username, email, address, onSelect}) => {
-    const handleClick = () => {
-        onSelect(id);
-    }
-
     return (
-        <div className="user" key={id} onClick={handleClick}>
+        <div className="user" key={id} onClick={() => onSelect(id)}>
             <Card>
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
